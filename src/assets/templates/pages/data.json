@@ -4,8 +4,52 @@
       "title": "Home",
       "bootstrap": true
     },
+
+    "org-header":{
+      "mol-main-nav":{
+        "nav-items":[
+          {
+            "active": true,
+            "item":"home"
+          },
+          {
+            "item":"Why us"
+          },
+          {
+            "item":"How it works"
+          },
+          {
+            "item":"Pricing "
+          },
+          {
+            "item":"Sample Trips"
+          }
+        ]
+      }
+    },
+    "org-main-baner":{
+
+    },
+    "org-home-content-line-1":{
+      "mol-get-started":{
+        "top-block": {
+          "mol-title-with-underline":{
+            "title-level":"2",
+            "title":"FIND YOUR PERFECT TOUR"
+          },
+          "text": "WP travel plugin is is an easy to use plugin that enhance your travel site with powerful features. Travel Log theme also has compatibility for WP..."
+        },
+        "bottom-block": {
+          "mol-title-with-underline":{
+            "title-level":"2",
+            "title":"SAMPLE TRIPS"
+          },
+          "text": "Here are some of our recomended trips for the year."
+        }
+      }
+    },
     "foot": {
-      
+      "jquery": true
     }
   }
 }

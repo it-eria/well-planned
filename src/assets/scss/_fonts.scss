@@ -1,32 +1,80 @@
-/*  Raleway Bold */
+$fonts-path: '../fonts/my-fonts/';
+
+
+// @font-face {
+//   font-family: 'OldStandard';
+//   src: url('../fonts/my-fonts/OldStandard-Bold.ttf');
+// }
+
+// @font-face {
+//   font-family: 'HelveticaNeueCyr';
+//   src: url('../fonts/my-fonts/HelveticaNeueCyr-Roman.ttf');
+//   src: url('../fonts/my-fonts/HelveticaNeueCyr-Medium.ttf');
+//   src: url('../fonts/my-fonts/HelveticaNeueCyr-Light.ttf');
+//   src: url('../fonts/my-fonts/HelveticaNeueCyr-Bold.ttf');
+// }
+
+// @font-face {
+//   font-family: 'Exo';
+//   src: url('../fonts/my-fonts/Exo-Regular.ttf');
+//   src: url('../fonts/my-fonts/Exo-Light.ttf');
+//   src: url('../fonts/my-fonts/Exo-BoldItalic.ttf');
+//   src: url('../fonts/my-fonts/Exo-Bold.ttf');
+// }
+
+// @font-face {
+//   font-family: 'BRUSHSCI';
+//   src: url('../fonts/my-fonts/BRUSHSCI.TTF');
+// }
+
+
+/* Helvetica */
+// Bold
 @font-face {
-  font-family: 'Raleway Bold';
-  src: url('../fonts/Raleway-Bold.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/Raleway-Bold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/Raleway-Bold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/Raleway-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/Raleway-Bold.svg#Raleway-Bold') format('svg'); /* Legacy iOS */
+  font-family: 'HelveticaNeueCyr-Bold';
+  src: url('#{$fonts-path}HelveticaNeueCyr-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-/* Raleway Regular */
+// Roman
 @font-face {
-  font-family: 'Raleway Regular';
-  src: url('../fonts/Raleway-Regular.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/Raleway-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/Raleway-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/Raleway-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/Raleway-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/Raleway-Regular.svg#Raleway-Regular') format('svg'); /* Legacy iOS */
+  font-family: 'HelveticaNeueCyr-Roman';
+  src: url('#{$fonts-path}HelveticaNeueCyr-Roman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-/*  Raleway Light */
+// Light
 @font-face {
-  font-family: 'Raleway Light';
-  src: url('../fonts/Raleway-Light.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/Raleway-Light.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/Raleway-Light.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/Raleway-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/Raleway-Light.svg#Raleway-Light') format('svg'); /* Legacy iOS */
+  font-family: 'HelveticaNeueCyr-Light';
+  src: url('#{$fonts-path}HelveticaNeueCyr-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Medium
+@font-face {
+  font-family: 'HelveticaNeueCyr-Medium';
+  src: url('#{$fonts-path}HelveticaNeueCyr-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Old Standart */
+@font-face {
+  font-family: 'OldStandard';
+  src: url('#{$fonts-path}OldStandard-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Exo */
+// Light
+@font-face {
+  font-family: 'Exo-Light';
+  src: url('#{$fonts-path}Exo-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
