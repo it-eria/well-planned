@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   min-width: 320px;
   font-size: 16px;
 }
@@ -13,7 +14,8 @@ body, html {
     font-size: 0.9rem;
     background-color: color(3);
     border-radius: 30px;
-    &:hover,&:focus{
+    &:hover,
+    &:focus {
       color: color(2);
       background-color: lighten(color(3), 5%);
     }
@@ -35,13 +37,15 @@ body, html {
       border-radius: 40px;
       transition: all .3s ease-in-out;
     }
-    &:hover,&:focus{
+    &:hover,
+    &:focus {
       color: color(2);
       span {
         background-color: lighten(color(5), 5%);
       }
     }
-    &:before, &:after {
+    &:before,
+    &:after {
       content: '';
       display: block;
       height: 1px;
@@ -60,15 +64,16 @@ body, html {
   }
   border-radius: 0;
 }
+
 .arr {
   border-radius: 50%;
-  background-color:color(3);
+  background-color: color(3);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 95%;
   display: block;
   transition: all .3s ease-in-out;
-  &:hover{
+  &:hover {
     background-color: lighten(color(3), 5%);
   }
   &--down {
@@ -78,7 +83,7 @@ body, html {
   }
 }
 
-.content-line{
+.content-line {
   padding: 150px 0;
+  overflow: hidden;
 }
-

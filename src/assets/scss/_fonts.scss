@@ -70,11 +70,29 @@ $fonts-path: '../fonts/my-fonts/';
   font-style: normal;
 }
 
+
 /* Exo */
 // Light
 @font-face {
   font-family: 'Exo-Light';
   src: url('#{$fonts-path}Exo-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Exo */
+// Bold
+@font-face {
+  font-family: 'Exo-Bold';
+  src: url('#{$fonts-path}Exo-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* BRUSHSCRIPT */
+@font-face {
+  font-family: 'BRUSHSCRIPT';
+  src: url('#{$fonts-path}BRUSHSCRIPT.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

@@ -1,4 +1,4 @@
-.main-nav{
+.main-nav {
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -7,9 +7,9 @@
   border: 1px solid color(3);
   padding: 3px;
   border-radius: 30px;
-  li{ 
+  li {
     display: inline-block;
-    a{
+    a {
       font-family: $f-helvetica-roman;
       font-size: 1rem;
       color: color(2);
@@ -22,31 +22,29 @@
         background-color: color(3);
         text-transform: uppercase;
       }
-      &:not(.active):hover{
-        color:color(3);
-
+      &:not(.active):hover {
+        color: color(3);
       }
     }
   }
 }
 
-.title-with-underline{
+.title-with-underline {
   text-align: center;
-  *{
+  * {
     font-family: $f-oldstandard;
     margin: 0;
     padding: 0;
   }
-  h2{
+  h2 {
     font-size: 3rem;
-
   }
-  &:after{
+  &:after {
     content: '';
     display: block;
     margin: 0 auto;
     width: 90%;
-    height:1px;
+    height: 1px;
     max-width: 778px;
     background-image: linear-gradient(to right, transparent 0%, currentColor 50%, transparent 100%);
   }
