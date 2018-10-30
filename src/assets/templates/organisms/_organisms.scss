@@ -234,7 +234,7 @@
     max-width: 130px;
     width: 100%;
     display: inline-block;
-    margin: 0 auto  50px;
+    margin: 0 auto 50px;
     background-color: #fff;
     position: relative;
     &:before,
@@ -261,7 +261,7 @@
       background-color: color(5);
       border-radius: 50%;
       margin-right: 10px;
-      &:last-child{
+      &:last-child {
         margin: 0;
       }
     }
@@ -269,13 +269,106 @@
   &__description {
     p {
       margin: 0;
-    padding: 0;
-    width: 100%;
-    font-size: 1.5rem;
-    font-family: Exo-Light,Tahoma,sans-serif;
-    color: #8f8f8f;
-    max-width: 780px;
-    margin: 0 auto;
+      padding: 0;
+      width: 100%;
+      font-size: 1.5rem;
+      font-family: Exo-Light, Tahoma, sans-serif;
+      color: #8f8f8f;
+      max-width: 780px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.poll {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 0;
+  position: relative;
+  &__item {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    &:hover{
+      text-decoration: none;
+    }
+    &:before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 500;
+      background-color: color(5);
+      opacity: 0.5;
+    }
+    &:after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 600;
+      background-color: color(3);
+      opacity: 0;
+      transition: all .3s ease-in-out;
+    }
+    &:hover {
+      &:after {
+        opacity: 1;
+      }
+    }
+    &:first-child {
+      left: 0;
+      z-index: 100;
+    }
+    &:nth-child(2) {
+      left: 25%;
+      z-index: 200;
+      width: 35%;
+      transform: translate(-25%, 0);
+    }
+    &:nth-child(3) {
+      left: 50%;
+      z-index: 300;
+      width: 35%;
+      transform: translate(-25%, 0);
+    }
+    &:last-child {
+      right: 0;
+      z-index: 100;
+      width: 35%;
+    }
+    &__title {
+      z-index: 800;
+      color: color(2);
+      h2 {
+        color: color(2);
+        font-size: 3.125rem;
+        font-family: $f-oldstandard;
+        margin: 0;
+      }
+      p {
+        color: color(2);
+        font-size: 1.625rem;
+        font-family: Exo-Light, Tahoma, sans-serif;
+        max-width: 240px;
+        margin: 0;
+        padding: 0;
+      }
     }
   }
 }

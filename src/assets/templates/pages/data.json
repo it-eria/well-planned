@@ -4,207 +4,262 @@
       "title": "Home",
       "bootstrap": true
     },
-
-    "org-header":{
-      "mol-main-nav":{
-        "nav-items":[
+    "org-header": {
+      "mol-main-nav": {
+        "nav-items": [
           {
             "active": true,
-            "item":"Home"
+            "item": "Home"
+          },
+        
+          {
+            "item": "How it works"
           },
           {
-            "item":"Why us"
+            "item": "Pricing "
           },
           {
-            "item":"How it works"
-          },
-          {
-            "item":"Pricing "
-          },
-          {
-            "item":"Sample Trips"
+            "item": "Sample Trips"
           }
         ]
       }
     },
-    "org-main-baner":{
-      "last-title":true,
-      "down-button":true
+    "org-main-baner": {
+      "last-title": true,
+      "down-button": true
     },
-    "org-home-content-line-1":{
-      "mol-get-started":{
+    "org-home-content-line-1": {
+      "mol-get-started": {
         "top-block": {
-          "mol-title-with-underline":{
-            "title-level":"2",
-            "title":"FIND YOUR PERFECT TOUR"
+          "mol-title-with-underline": {
+            "title-level": "2",
+            "title": "FIND YOUR PERFECT TOUR"
           },
           "text": "WP travel plugin is is an easy to use plugin that enhance your travel site with powerful features. Travel Log theme also has compatibility for WP..."
         },
         "bottom-block": {
-          "mol-title-with-underline":{
-            "title-level":"2",
-            "title":"SAMPLE TRIPS"
+          "mol-title-with-underline": {
+            "title-level": "2",
+            "title": "SAMPLE TRIPS"
           },
           "text": "Here are some of our recomended trips for the year."
         }
       }
     },
-    "org-home-content-line-2":{
-      "mol-content-info-line2":{
-        "title":"Florence",
-        "parameters":[
+    "org-home-content-line-2": {
+      "mol-content-info-line2": {
+        "title": "Florence",
+        "parameters": [
           {
-            "parameters-info":"<span>DESIGNER:</span>Sara"
+            "parameters-info": "<span>DESIGNER:</span>Sara"
           },
           {
-            "parameters-info":"<span>TIME:</span>Several "
+            "parameters-info": "<span>TIME:</span>Several "
           },
           {
-            "parameters-info":"<span>HOTEL:</span>The St. Regis Florence"
+            "parameters-info": "<span>HOTEL:</span>The St. Regis Florence"
           },
           {
-            "parameters-info":"On 27 September,From Rome-Florence We highly recommended going by fast train."
+            "parameters-info": "On 27 September,From Rome-Florence We highly recommended going by fast train."
           },
           {
-            "parameters-info":"<span>Duration:</span>1 hour, 30 minuets"
+            "parameters-info": "<span>Duration:</span>1 hour, 30 minuets"
           }
         ],
-       "description":"I found Well Planned 365 after already getting an itinerary from a typical travel agency. Simply put, Well Planned 365 recommendations blew theirs out of the water. Every concierge we worked with really listened to what we wanted as travelers and led us to the off-the-beaten-path sights we were looking for. Plus, the process is super smooth and easy! <span class='signature'>Melissa</span>"
-       }
+        "description": "I found Well Planned 365 after already getting an itinerary from a typical travel agency. Simply put, Well Planned 365 recommendations blew theirs out of the water. Every concierge we worked with really listened to what we wanted as travelers and led us to the off-the-beaten-path sights we were looking for. Plus, the process is super smooth and easy! <span class='signature'>Melissa</span>"
+      }
     },
-    "org-footer-main":{
-      "mol-footer-list":[
+    "org-footer-main": {
+      "mol-footer-list": [
         {
           "link": "Our Story",
-          "href":"#"
+          "href": "#"
         },
         {
           "link": "Terms & Condition",
-          "href":"#"
+          "href": "#"
         },
         {
           "link": "Privacy Policy",
-          "href":"#"
+          "href": "#"
         },
         {
           "link": "Cookies",
-          "href":"#"
+          "href": "#"
         },
         {
           "link": "Contact us",
-          "href":"#"
+          "href": "#"
         }
-    ],
-    "mol-footer-icons":[
-      {
-        "icon": "assets/img/insta.png",
-        "href":"#",
-        "alt":"social-icon"
-      },
-      {
-        "icon": "assets/img/twitter.png",
-        "href":"#",
-        "alt":"social-icon"
-      },
-      {
-        "icon": "assets/img/facebook.png",
-        "href":"#",
-        "alt":"social-icon"
-      }
-  ]
+      ],
+      "mol-footer-icons": [
+        {
+          "icon": "assets/img/insta.png",
+          "href": "#",
+          "alt": "social-icon"
+        },
+        {
+          "icon": "assets/img/twitter.png",
+          "href": "#",
+          "alt": "social-icon"
+        },
+        {
+          "icon": "assets/img/facebook.png",
+          "href": "#",
+          "alt": "social-icon"
+        }
+      ]
     },
-    "org-subscribe-block":{
-
-    },
+    "org-subscribe-block": {},
     "foot": {
       "jquery": true
     }
   },
-
   "p-our-story": {
     "head": {
       "title": "our-story",
       "bootstrap": true
     },
-
-    "org-header":{
-      "mol-main-nav":{
-        "nav-items":[
+    "org-header": {
+      "mol-main-nav": {
+        "nav-items": [
           {
-            "item":"Home"
+            "item": "Home"
+          },
+        
+          {
+            "item": "How it works"
           },
           {
-            "item":"Why us"
+            "item": "Pricing "
           },
           {
-            "item":"How it works"
-          },
-          {
-            "item":"Pricing "
-          },
-          {
-            "item":"Sample Trips"
+            "item": "Sample Trips"
           }
         ]
       }
     },
-    "org-main-baner":{
-      "last-title":true
-     
+    "org-main-baner": {
+      "last-title": true
     },
-    "org-our-story-content-line-1":{
-      "mol-our-story-line-1-description":{
-        "description":"While on your trip, get support from our team for any last minute reservation changes or alternative recommendations. Due to international time differences, please ask for any updates or changes at least 12 hours in advance."
+    "org-our-story-content-line-1": {
+      "mol-our-story-line-1-description": {
+        "description": "While on your trip, get support from our team for any last minute reservation changes or alternative recommendations. Due to international time differences, please ask for any updates or changes at least 12 hours in advance."
       }
     },
-
-    "org-footer-main":{
-      "mol-footer-list":[
+    "org-footer-main": {
+      "mol-footer-list": [
         {
           "link": "Our Story",
-          "href":"#"
+          "href": "#"
         },
         {
           "link": "Terms & Condition",
-          "href":"#"
+          "href": "#"
         },
         {
           "link": "Privacy Policy",
-          "href":"#"
+          "href": "#"
         },
         {
           "link": "Cookies",
-          "href":"#"
+          "href": "#"
         },
         {
           "link": "Contact us",
-          "href":"#"
+          "href": "#"
         }
-    ],
-    "mol-footer-icons":[
-      {
-        "icon": "assets/img/insta.png",
-        "href":"#",
-        "alt":"social-icon"
-      },
-      {
-        "icon": "assets/img/twitter.png",
-        "href":"#",
-        "alt":"social-icon"
-      },
-      {
-        "icon": "assets/img/facebook.png",
-        "href":"#",
-        "alt":"social-icon"
-      }
-  ]
+      ],
+      "mol-footer-icons": [
+        {
+          "icon": "assets/img/insta.png",
+          "href": "#",
+          "alt": "social-icon"
+        },
+        {
+          "icon": "assets/img/twitter.png",
+          "href": "#",
+          "alt": "social-icon"
+        },
+        {
+          "icon": "assets/img/facebook.png",
+          "href": "#",
+          "alt": "social-icon"
+        }
+      ]
     },
-
+    "foot": {
+      "jquery": true
+    }
+  },
+  "p-get-started": {
+    "head": {
+      "title": "get-started",
+      "bootstrap": true
+    },
+    "org-header": {
+      "mol-main-nav": {
+        "nav-items": [
+          {
+            "item": "Home"
+          },
+         
+          {
+            "item": "How it works"
+          },
+          {
+            "item": "Pricing "
+          },
+          {
+            "item": "Sample Trips"
+          }
+        ]
+      }
+    },
+    "org-get-started-content-line-1":true,
+    "org-footer-main": {
+      "mol-footer-list": [
+        {
+          "link": "Our Story",
+          "href": "#"
+        },
+        {
+          "link": "Terms & Condition",
+          "href": "#"
+        },
+        {
+          "link": "Privacy Policy",
+          "href": "#"
+        },
+        {
+          "link": "Cookies",
+          "href": "#"
+        },
+        {
+          "link": "Contact us",
+          "href": "#"
+        }
+      ],
+      "mol-footer-icons": [
+        {
+          "icon": "assets/img/insta.png",
+          "href": "#",
+          "alt": "social-icon"
+        },
+        {
+          "icon": "assets/img/twitter.png",
+          "href": "#",
+          "alt": "social-icon"
+        },
+        {
+          "icon": "assets/img/facebook.png",
+          "href": "#",
+          "alt": "social-icon"
+        }
+      ]
+    },
     "foot": {
       "jquery": true
     }
   }
 }
-
-
-
