@@ -222,7 +222,8 @@
   "p-get-started": {
     "head": {
       "title": "get-started",
-      "bootstrap": true
+      "bootstrap": true,
+      "slick": true
     },
     "org-header": {
       "mol-main-nav": {
@@ -286,7 +287,8 @@
       ]
     },
     "foot": {
-      "jquery": true
+      "jquery": true,
+      "slick-slider":true
     }
   },
   "p-terms-&-condition": {
