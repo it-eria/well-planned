@@ -25,7 +25,22 @@
       }
     },
     "org-main-baner": {
-      "last-title": true,
+      "baner-block-bg":"assets/img/home-baner-bg.jpg",
+      "litle-title":{
+        "title-h5":"Well, you came to the right place!",
+        "home-top-title":"home-top-title"
+      },
+
+      "first-title":{
+        "title":"Welcome to Well Planed 365!",
+        "class-name": "first-title-style mb-300"
+      },
+      "last-title": {
+        "title":"We`re Well Planned, so you don`t have to be!"
+      },
+   
+     
+    
       "down-button": true
     },
     "org-home-content-line-1": {
@@ -140,7 +155,21 @@
       }
     },
     "org-main-baner": {
-      "last-title": true
+      "baner-block-bg":"assets/img/our-story.jpg",
+      "first-title":{
+        "title":"Our Story!",
+        "class-name": "first-title-style"
+      },
+      "last-title": {
+        "title":"Click the button below to show you how it works"
+      },
+      "content":{
+        "content-1":"We`re a couple passionate about traveling.journeying, and just discovering this beautiful world that we live in, one country at a time! We do the most dificult part of travel,planning for you...Planning. Well Planned 365 in the new kid in town who`s about to change the rules of writing itineraries for trips that you`ll never ever forget! (In a good way).It`s simpl, easy, quick, and saves you the headache that almost ruins trips for people. We`re Well Planned, so you don`t have to be! "
+      },
+      "started-btn":{  
+        "url":"#"  ,
+        "upgrade-default-btn":"upgrade-default-btn"
+      }
     },
     "org-our-story-content-line-1": {
       "mol-our-story-line-1-description": {
@@ -261,5 +290,351 @@
     "foot": {
       "jquery": true
     }
+  },
+  "p-terms-&-condition": {
+    "head": {
+      "title": "terms-&-condition",
+      "bootstrap": true
+    },
+    "org-header": {
+      "mol-main-nav": {
+        "nav-items": [
+          {
+            "item": "Home"
+          },
+        
+          {
+            "item": "How it works"
+          },
+          {
+            "item": "Pricing "
+          },
+          {
+            "item": "Sample Trips"
+          }
+        ]
+      }
+    },
+    "org-main-baner": {
+      "baner-block-bg":"assets/img/our-story.jpg",
+      "first-title":{
+        "title":"Terms and Condition",
+        "class-name": "first-title-style"
+      },
+     
+      "content":{
+        "content-1":"We`re a couple passionate about traveling.journeying, and just discovering this beautiful world that we live in, one country at a time! We do the most dificult part of travel,planning for you...Planning. Well Planned 365 in the new kid in town who`s about to change the rules of writing itineraries for trips that you`ll never ever forget! (In a good way).It`s simpl, easy, quick, and saves you the headache that almost ruins trips for people. We`re Well Planned, so you don`t have to be! "
+      }
+  
+    },
+    "org-our-story-content-line-1": {
+      "mol-our-story-line-1-description": {
+        "description": "While on your trip, get support from our team for any last minute reservation changes or alternative recommendations. Due to international time differences, please ask for any updates or changes at least 12 hours in advance."
+      }
+    },
+    "org-footer-main": {
+      "mol-footer-list": [
+        {
+          "link": "Our Story",
+          "href": "#"
+        },
+        {
+          "link": "Terms & Condition",
+          "href": "#"
+        },
+        {
+          "link": "Privacy Policy",
+          "href": "#"
+        },
+        {
+          "link": "Cookies",
+          "href": "#"
+        },
+        {
+          "link": "Contact us",
+          "href": "#"
+        }
+      ],
+      "mol-footer-icons": [
+        {
+          "icon": "assets/img/insta.png",
+          "href": "#",
+          "alt": "social-icon"
+        },
+        {
+          "icon": "assets/img/twitter.png",
+          "href": "#",
+          "alt": "social-icon"
+        },
+        {
+          "icon": "assets/img/facebook.png",
+          "href": "#",
+          "alt": "social-icon"
+        }
+      ]
+    },
+    "foot": {
+      "jquery": true
+    }
+  },
+  "p-privacy-policy": {
+    "head": {
+      "title": "Privacy Policy",
+      "bootstrap": true
+    },
+    "org-header": {
+      "mol-main-nav": {
+        "nav-items": [
+          {
+            "item": "Home"
+          },
+        
+          {
+            "item": "How it works"
+          },
+          {
+            "item": "Pricing "
+          },
+          {
+            "item": "Sample Trips"
+          }
+        ]
+      }
+    },
+    "org-main-baner": {
+      "baner-block-bg":"assets/img/our-story.jpg",
+      "first-title":{
+        "title":"Privacy Policy",
+        "class-name": "first-title-style"
+      },
+     
+      "content":{
+        "content-1":"We`re a couple passionate about traveling.journeying, and just discovering this beautiful world that we live in, one country at a time! We do the most dificult part of travel,planning for you...Planning. Well Planned 365 in the new kid in town who`s about to change the rules of writing itineraries for trips that you`ll never ever forget! (In a good way).It`s simpl, easy, quick, and saves you the headache that almost ruins trips for people. We`re Well Planned, so you don`t have to be! "
+      }
+    
+    },
+    "org-our-story-content-line-1": {
+      "mol-our-story-line-1-description": {
+        "description": "While on your trip, get support from our team for any last minute reservation changes or alternative recommendations. Due to international time differences, please ask for any updates or changes at least 12 hours in advance."
+      }
+    },
+    "org-footer-main": {
+      "mol-footer-list": [
+        {
+          "link": "Our Story",
+          "href": "#"
+        },
+        {
+          "link": "Terms & Condition",
+          "href": "#"
+        },
+        {
+          "link": "Privacy Policy",
+          "href": "#"
+        },
+        {
+          "link": "Cookies",
+          "href": "#"
+        },
+        {
+          "link": "Contact us",
+          "href": "#"
+        }
+      ],
+      "mol-footer-icons": [
+        {
+          "icon": "assets/img/insta.png",
+          "href": "#",
+          "alt": "social-icon"
+        },
+        {
+          "icon": "assets/img/twitter.png",
+          "href": "#",
+          "alt": "social-icon"
+        },
+        {
+          "icon": "assets/img/facebook.png",
+          "href": "#",
+          "alt": "social-icon"
+        }
+      ]
+    },
+    "foot": {
+      "jquery": true
+    }
+  },
+  "p-cookies": {
+    "head": {
+      "title": "Cookies",
+      "bootstrap": true
+    },
+    "org-header": {
+      "mol-main-nav": {
+        "nav-items": [
+          {
+            "item": "Home"
+          },
+        
+          {
+            "item": "How it works"
+          },
+          {
+            "item": "Pricing "
+          },
+          {
+            "item": "Sample Trips"
+          }
+        ]
+      }
+    },
+    "org-main-baner": {
+      "baner-block-bg":"assets/img/our-story.jpg",
+      "first-title":{
+        "title":"Cookies",
+        "class-name": "first-title-style"
+      },
+    
+      "content":{
+        "content-1":"We`re a couple passionate about traveling.journeying, and just discovering this beautiful world that we live in, one country at a time! We do the most dificult part of travel,planning for you...Planning. Well Planned 365 in the new kid in town who`s about to change the rules of writing itineraries for trips that you`ll never ever forget! (In a good way).It`s simpl, easy, quick, and saves you the headache that almost ruins trips for people. We`re Well Planned, so you don`t have to be! "
+      }
+    
+    },
+    "org-our-story-content-line-1": {
+      "mol-our-story-line-1-description": {
+        "description": "While on your trip, get support from our team for any last minute reservation changes or alternative recommendations. Due to international time differences, please ask for any updates or changes at least 12 hours in advance."
+      }
+    },
+    "org-footer-main": {
+      "mol-footer-list": [
+        {
+          "link": "Our Story",
+          "href": "#"
+        },
+        {
+          "link": "Terms & Condition",
+          "href": "#"
+        },
+        {
+          "link": "Privacy Policy",
+          "href": "#"
+        },
+        {
+          "link": "Cookies",
+          "href": "#"
+        },
+        {
+          "link": "Contact us",
+          "href": "#"
+        }
+      ],
+      "mol-footer-icons": [
+        {
+          "icon": "assets/img/insta.png",
+          "href": "#",
+          "alt": "social-icon"
+        },
+        {
+          "icon": "assets/img/twitter.png",
+          "href": "#",
+          "alt": "social-icon"
+        },
+        {
+          "icon": "assets/img/facebook.png",
+          "href": "#",
+          "alt": "social-icon"
+        }
+      ]
+    },
+    "foot": {
+      "jquery": true
+    }
+  },
+  "p-contact-us": {
+    "head": {
+      "title": "contact-us",
+      "bootstrap": true
+    },
+    "org-header": {
+      "mol-main-nav": {
+        "nav-items": [
+          {
+            "item": "Home"
+          },
+        
+          {
+            "item": "How it works"
+          },
+          {
+            "item": "Pricing "
+          },
+          {
+            "item": "Sample Trips"
+          }
+        ]
+      }
+    },
+    "org-main-baner": {
+      "baner-block-bg":"assets/img/our-story.jpg",
+      "first-title":{
+        "title":"Contact Us",
+        "class-name": "first-title-style"
+      },
+     
+      "content":{
+        "content-1":"We`re a couple passionate about traveling.journeying, and just discovering this beautiful world that we live in, one country at a time! We do the most dificult part of travel,planning for you...Planning. Well Planned 365 in the new kid in town who`s about to change the rules of writing itineraries for trips that you`ll never ever forget! (In a good way).It`s simpl, easy, quick, and saves you the headache that almost ruins trips for people. We`re Well Planned, so you don`t have to be! "
+      }
+     
+    },
+    "org-our-story-content-line-1": {
+      "mol-our-story-line-1-description": {
+        "description": "While on your trip, get support from our team for any last minute reservation changes or alternative recommendations. Due to international time differences, please ask for any updates or changes at least 12 hours in advance."
+      }
+    },
+    "org-footer-main": {
+      "mol-footer-list": [
+        {
+          "link": "Our Story",
+          "href": "#"
+        },
+        {
+          "link": "Terms & Condition",
+          "href": "#"
+        },
+        {
+          "link": "Privacy Policy",
+          "href": "#"
+        },
+        {
+          "link": "Cookies",
+          "href": "#"
+        },
+        {
+          "link": "Contact us",
+          "href": "#"
+        }
+      ],
+      "mol-footer-icons": [
+        {
+          "icon": "assets/img/insta.png",
+          "href": "#",
+          "alt": "social-icon"
+        },
+        {
+          "icon": "assets/img/twitter.png",
+          "href": "#",
+          "alt": "social-icon"
+        },
+        {
+          "icon": "assets/img/facebook.png",
+          "href": "#",
+          "alt": "social-icon"
+        }
+      ]
+    },
+
+    "foot": {
+      "jquery": true
+    }
   }
+
 }

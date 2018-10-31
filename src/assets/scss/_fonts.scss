@@ -89,6 +89,16 @@ $fonts-path: '../fonts/my-fonts/';
   font-style: normal;
 }
 
+
+/* Exo */
+// regular
+@font-face {
+  font-family: 'Exo-Regular';
+  src: url('#{$fonts-path}Exo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* BRUSHSCRIPT */
 @font-face {
   font-family: 'BRUSHSCRIPT';

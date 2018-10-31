@@ -1,20 +1,30 @@
 {{#org-main-baner}}
-<section class="main-baner" style="background-image:url(assets/img/home-slide.png);">
+<section class="main-baner" style="background-image:url({{{baner-block-bg}}});">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 col-lg-8 text-center">
+      <div class="col-12 col-lg-12 text-center">
         <div class="animatio-1">
-          <h2>Hello!</h2>
-          <p><b>I see you there!</b> You look like you`ve been daydreaming 
-              about a relaxing trip to Fiji! 
-              Or maybe a romantic getaway to Paris? No? 
-              An awesome adventure to Machu Picchu? 
-              OR maybe you`re sofed up with all work, life responsibilitise 
-              and want to do them all! 
-          </p>
+
+          {{#litle-title}}
+          <h5 class="{{{home-top-title}}}">{{{title-h5}}}</h5>
+          {{/litle-title}}
+
+          {{#first-title}}
+          <h2 class="{{{class-name}}} ">{{{title}}}</h2>
+          {{/first-title}}
+
+          {{#content}}
+          <p>{{{content-1}}}</p>
+          {{/content}}
+
           {{#last-title}}
-          <h3>We`re Well Planned, so you don`t have to be!</h3>
+          <h3>{{{title}}}</h3>
           {{/last-title}}
+
+          {{#started-btn}}
+          <a href="{{{url}}}" class="btn btn--default {{{upgrade-default-btn}}}">get started</a>
+          {{/started-btn}}
+
         </div>
       </div>
     </div>

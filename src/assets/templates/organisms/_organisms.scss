@@ -26,13 +26,14 @@
     margin: 0;
     padding: 0;
     line-height: 9.375rem;
-    letter-spacing: 10px;
+    letter-spacing: 6px;
   }
   p {
     font-family: $f-helvetica-light;
     font-size: 1.5rem;
     margin: 70px 0 190px 0;
     padding: 0;
+    opacity: .6;
     b {
       font-family: $f-helvetica-bold;
       font-size: 1.875rem;
@@ -371,4 +372,28 @@
       }
     }
   }
+}
+
+.first-title-style {
+ color: color(2);
+ font-size:4.5rem!important;
+}
+
+.upgrade-default-btn{
+  width: 360px;
+  height: 65px;
+  margin-top: 50px;
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+
+.home-top-title{
+  font-size: 1.875rem;
+  color: color(2);
+  opacity: .5;
+  font-family: $f-exo-regular;
+}
+
+.mb-300{
+  margin-bottom: 300px !important;
 }
