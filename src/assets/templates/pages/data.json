@@ -39,8 +39,6 @@
         "title":"We`re Well Planned, so you don`t have to be!"
       },
    
-     
-    
       "down-button": true
     },
     "org-home-content-line-1": {
@@ -636,5 +634,4 @@
       "jquery": true
     }
   }
-
 }

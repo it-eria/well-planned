@@ -2,22 +2,38 @@
 <header class="header">
   <div class="container-fluid">
     <div class="row align-items-center">
-      <div class="col-4 col-lg-3">
+      <div class="col-4 col-lg-3 logo-block">
         <a href="#">
           <img src="assets/img/logo-well-planned.png" alt="logo">
         </a>
       </div>
-      <div class="col-4 col-lg-9 text-right">
-      {{> ../molecules/main-nav}}
-      <a href="#" class="btn btn--default">get started</a>
-      </div>
-      <div class="col-4 col-lg-2 d-lg-none">
+      <div class="col-4 col-lg-9 text-right d-none d-lg-inline-block">
+        {{> ../molecules/main-nav}}
         <a href="#" class="btn btn--default">get started</a>
       </div>
+
+      <!-- NEW MENU-->
+      <div class="responsive-menu d-lg-none d-block">
+        <div class="burger">
+          <span></span>
+        </div>
+
+        <nav>
+          <ul class="main">
+            <li><a href="#0">Home</a></li>
+            <li><a href="#0">How it works</a></li>
+            <li><a href="#0">Pricing</a></li>
+            <li><a href="#0">Sample Trips</a></li>
+          </ul>
+          <div class="col-12 d-lg-none text-center">
+            <a href="#" class="btn btn--default responsive-btn">get started</a>
+          </div>
+        </nav>
+
+      </div>
+      <!-- END NEW MENU -->
     </div>
 
   </div>
 </header>
 {{/org-header}}
-
-

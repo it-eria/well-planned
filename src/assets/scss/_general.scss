@@ -30,12 +30,14 @@ html {
     border: 1px solid rgba(color(6), .41);
     border-radius: 40px;
     position: relative;
+    outline: none;
     span {
       display: inline-block;
       padding: 25px 81px;
       background-color: color(5);
       border-radius: 40px;
       transition: all .3s ease-in-out;
+      outline: none;
     }
     &:hover,
     &:focus {
