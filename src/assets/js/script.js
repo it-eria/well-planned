@@ -1,5 +1,4 @@
 $(function() {
- 
   $('.burger, .overlay').click(function(){
     $('.burger').toggleClass('clicked');
     $('.overlay').toggleClass('show');
@@ -16,14 +15,14 @@ $(function() {
     arrows: true,
     autoplaySpeed: 2000,
     nextArrow:$('.canvass-btn-next'),
-    prewArrow:$('.canvass-btn-next')
-    
-    
+    prevArrow:$('.canvass-btn-prew') 
   });
   
-
-
 });
+
+
+
+
 
 
 
