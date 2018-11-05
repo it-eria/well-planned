@@ -710,6 +710,81 @@
     "foot": {
       "jquery": true
     }
+  },
+
+  "p-how-it-works": {
+    "head": {
+      "title": "How it works",
+      "bootstrap": true,
+      "slick": true
+    },
+    "org-header": {
+      "mol-main-nav": {
+        "nav-items": [
+          {
+            "item": "Home"
+          },
+        
+          {
+            "item": "How it works"
+          },
+          {
+            "item": "Pricing "
+          },
+          {
+            "item": "Sample Trips"
+          }
+        ]
+      }
+    },
+
+    "org-how-it-works-slides":true,
+    "org-footer-main": {
+      "mol-footer-list": [
+        {
+          "link": "Our Story",
+          "href": "#"
+        },
+        {
+          "link": "Terms & Condition",
+          "href": "#"
+        },
+        {
+          "link": "Privacy Policy",
+          "href": "#"
+        },
+        {
+          "link": "Cookies",
+          "href": "#"
+        },
+        {
+          "link": "Contact us",
+          "href": "#"
+        }
+      ],
+      "mol-footer-icons": [
+        {
+          "icon": "assets/img/insta.png",
+          "href": "#",
+          "alt": "social-icon"
+        },
+        {
+          "icon": "assets/img/twitter.png",
+          "href": "#",
+          "alt": "social-icon"
+        },
+        {
+          "icon": "assets/img/facebook.png",
+          "href": "#",
+          "alt": "social-icon"
+        }
+      ]
+    },
+
+    "foot": {
+      "jquery": true,
+      "slick-slider":true
+    }
   }
 
 }

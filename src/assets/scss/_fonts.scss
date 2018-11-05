@@ -1,33 +1,5 @@
 $fonts-path: '../fonts/my-fonts/';
 
-
-// @font-face {
-//   font-family: 'OldStandard';
-//   src: url('../fonts/my-fonts/OldStandard-Bold.ttf');
-// }
-
-// @font-face {
-//   font-family: 'HelveticaNeueCyr';
-//   src: url('../fonts/my-fonts/HelveticaNeueCyr-Roman.ttf');
-//   src: url('../fonts/my-fonts/HelveticaNeueCyr-Medium.ttf');
-//   src: url('../fonts/my-fonts/HelveticaNeueCyr-Light.ttf');
-//   src: url('../fonts/my-fonts/HelveticaNeueCyr-Bold.ttf');
-// }
-
-// @font-face {
-//   font-family: 'Exo';
-//   src: url('../fonts/my-fonts/Exo-Regular.ttf');
-//   src: url('../fonts/my-fonts/Exo-Light.ttf');
-//   src: url('../fonts/my-fonts/Exo-BoldItalic.ttf');
-//   src: url('../fonts/my-fonts/Exo-Bold.ttf');
-// }
-
-// @font-face {
-//   font-family: 'BRUSHSCI';
-//   src: url('../fonts/my-fonts/BRUSHSCI.TTF');
-// }
-
-
 /* Helvetica */
 // Bold
 @font-face {
@@ -37,6 +9,7 @@ $fonts-path: '../fonts/my-fonts/';
   font-style: normal;
 }
 
+
 // Roman
 @font-face {
   font-family: 'HelveticaNeueCyr-Roman';
@@ -45,6 +18,7 @@ $fonts-path: '../fonts/my-fonts/';
   font-style: normal;
 }
 
+
 // Light
 @font-face {
   font-family: 'HelveticaNeueCyr-Light';
@@ -52,6 +26,7 @@ $fonts-path: '../fonts/my-fonts/';
   font-weight: normal;
   font-style: normal;
 }
+
 
 // Medium
 @font-face {
@@ -80,6 +55,7 @@ $fonts-path: '../fonts/my-fonts/';
   font-style: normal;
 }
 
+
 /* Exo */
 // Bold
 @font-face {
@@ -98,6 +74,7 @@ $fonts-path: '../fonts/my-fonts/';
   font-weight: normal;
   font-style: normal;
 }
+
 
 /* BRUSHSCRIPT */
 @font-face {

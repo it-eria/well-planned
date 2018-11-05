@@ -8,7 +8,9 @@ $(function() {
 
   $('*[data-js="clip-it"]').ClipPath('25% 0%, 100% 0%, 75% 100%, 0% 100%');
 
+
 });
+
 
 $('.my-select').slick({
   slidesToShow: 1,
@@ -20,6 +22,24 @@ $('.my-select').slick({
   prevArrow:$('.canvass-btn-prew') 
 });
 
+$('.my-slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: false,
+  autoplaySpeed: 2000,
+  dots: true, 
+  appendDots:$(".dots-container"), 
+  arrows: false,
+});
+
+
+$('.left-arrow-slide').click(function(){
+  $('.my-slider').slick('slickPrev');
+})
+
+$('.right-arrow-slide').click(function(){
+  $('.my-slider').slick('slickNext');
+})
 
 
 
